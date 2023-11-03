@@ -17,5 +17,5 @@ export const winnerPlayer = (puntosComputadora, puntosMinimos) => {
         } else {
             alert('Computadora Gana')
         }
-    }, 100 );
+    }, 200 );
 }
