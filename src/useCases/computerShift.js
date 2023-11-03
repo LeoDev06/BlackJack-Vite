@@ -27,5 +27,7 @@ export const computerShift = ( puntosMinimos, puntosHTML, divCartasComputadora, 
     } while(  (puntosComputadora < puntosMinimos)  && (puntosMinimos <= 21 ) );
     
     //TODO: saber que jugador gana la parida
-    winnerPlayer(puntosComputadora, puntosMinimos);
+    setTimeout(() => {
+        winnerPlayer(puntosComputadora, puntosMinimos);
+    }, 200);
 }
